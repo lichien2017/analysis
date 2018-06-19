@@ -1,0 +1,75 @@
+[INFO 2018-04-16 23:15:58,612 train.py:93] Word dictionary is not given, the dictionary is automatically built from the training data.
+[INFO 2018-04-16 23:15:58,625 train.py:105] Label dictionary is not given, the dictionary is automatically built from the training data.
+[INFO 2018-04-16 23:15:58,628 train.py:116] Class number is : 2.
+[INFO 2018-04-16 23:15:58,628 train.py:137] Length of word dictionary is : 8043.
+I0416 23:15:58.651792 10065 Util.cpp:166] commandline:  --use_gpu=True --trainer_count=1 
+I0416 23:15:59.156761 10065 GradientMachine.cpp:94] Initing parameters..
+I0416 23:15:59.169270 10065 GradientMachine.cpp:101] Init parameters done.
+[INFO 2018-04-16 23:15:59,403 train.py:172] Pass 0, Batch 0, Cost 2.246541, {'__auc_evaluator_0__': 0.4589371979236603, 'classification_error_evaluator': 0.71875}
+
+[INFO 2018-04-16 23:15:59,601 train.py:172] Pass 1, Batch 0, Cost 1.858993, {'__auc_evaluator_0__': 0.9270833134651184, 'classification_error_evaluator': 0.75}
+
+[INFO 2018-04-16 23:15:59,812 train.py:172] Pass 2, Batch 0, Cost 1.393210, {'__auc_evaluator_0__': 0.7874395847320557, 'classification_error_evaluator': 0.71875}
+
+[INFO 2018-04-16 23:16:00,007 train.py:172] Pass 3, Batch 0, Cost 1.025398, {'__auc_evaluator_0__': 0.796875, 'classification_error_evaluator': 0.75}
+
+[INFO 2018-04-16 23:16:00,214 train.py:172] Pass 4, Batch 0, Cost 0.725376, {'__auc_evaluator_0__': 0.7942857146263123, 'classification_error_evaluator': 0.53125}
+
+[INFO 2018-04-16 23:16:00,412 train.py:172] Pass 5, Batch 0, Cost 0.574519, {'__auc_evaluator_0__': 0.7083333134651184, 'classification_error_evaluator': 0.21875}
+
+[INFO 2018-04-16 23:16:00,609 train.py:172] Pass 6, Batch 0, Cost 0.457333, {'__auc_evaluator_0__': 0.875, 'classification_error_evaluator': 0.25}
+
+[INFO 2018-04-16 23:16:00,799 train.py:172] Pass 7, Batch 0, Cost 0.396432, {'__auc_evaluator_0__': 0.8717948794364929, 'classification_error_evaluator': 0.1875}
+
+[INFO 2018-04-16 23:16:01,005 train.py:172] Pass 8, Batch 0, Cost 0.481152, {'__auc_evaluator_0__': 0.8514285683631897, 'classification_error_evaluator': 0.21875}
+
+[INFO 2018-04-16 23:16:01,209 train.py:172] Pass 9, Batch 0, Cost 0.540136, {'__auc_evaluator_0__': 0.9322916865348816, 'classification_error_evaluator': 0.25}
+
+[INFO 2018-04-16 23:16:01,303 train.py:191] Training has finished.
+len line_splits:2, 10342
+len line_splits:2, 1914
+len line_splits:2, 1679
+len line_splits:2, 5127
+len line_splits:2, 7586
+len line_splits:2, 13886
+len line_splits:2, 9373
+len line_splits:2, 6470
+len line_splits:2, 478
+len line_splits:2, 1131
+len line_splits:2, 10191
+len line_splits:2, 70
+len line_splits:2, 3765
+len line_splits:2, 70
+len line_splits:2, 5395
+len line_splits:2, 2099
+len line_splits:2, 3682
+len line_splits:2, 3933
+len line_splits:2, 5198
+len line_splits:2, 3862
+len line_splits:2, 1941
+len line_splits:2, 1337
+len line_splits:2, 18986
+len line_splits:2, 113
+len line_splits:2, 63
+len line_splits:2, 8366
+len line_splits:2, 4236
+len line_splits:2, 5176
+len line_splits:2, 3266
+len line_splits:2, 6944
+len line_splits:2, 85
+len line_splits:2, 5945
+len line_splits:2, 15333
+len line_splits:2, 2334
+len line_splits:2, 3564
+len line_splits:2, 6030
+len line_splits:2, 5397
+len line_splits:2, 2825
+len line_splits:2, 4786
+len line_splits:2, 5294
+len line_splits:2, 3600
+len line_splits:2, 8247
+len line_splits:2, 80
+len line_splits:2, 4231
+len line_splits:2, 5852
+len line_splits:2, 3006
+len line_splits:2, 2731

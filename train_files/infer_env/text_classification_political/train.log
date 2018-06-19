@@ -1,0 +1,103 @@
+[INFO 2018-04-16 14:08:05,807 train.py:93] Word dictionary is not given, the dictionary is automatically built from the training data.
+[INFO 2018-04-16 14:08:05,830 train.py:105] Label dictionary is not given, the dictionary is automatically built from the training data.
+[INFO 2018-04-16 14:08:05,835 train.py:116] Class number is : 2.
+[INFO 2018-04-16 14:08:05,836 train.py:137] Length of word dictionary is : 11714.
+I0416 14:08:06.036862  5234 Util.cpp:166] commandline:  --use_gpu=True --trainer_count=1 
+I0416 14:08:07.740847  5234 GradientMachine.cpp:94] Initing parameters..
+I0416 14:08:07.758796  5234 GradientMachine.cpp:101] Init parameters done.
+[INFO 2018-04-16 14:08:08,010 train.py:172] Pass 0, Batch 0, Cost 0.763853, {'__auc_evaluator_0__': 0.7098039388656616, 'classification_error_evaluator': 0.46875}
+
+[INFO 2018-04-16 14:08:08,334 train.py:172] Pass 1, Batch 0, Cost 0.672762, {'__auc_evaluator_0__': 0.8542510271072388, 'classification_error_evaluator': 0.15625}
+
+[INFO 2018-04-16 14:08:08,630 train.py:172] Pass 2, Batch 0, Cost 0.641790, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.46875}
+
+[INFO 2018-04-16 14:08:08,940 train.py:172] Pass 3, Batch 0, Cost 0.616709, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.125}
+
+[INFO 2018-04-16 14:08:09,243 train.py:172] Pass 4, Batch 0, Cost 0.571468, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[INFO 2018-04-16 14:08:09,550 train.py:172] Pass 5, Batch 0, Cost 0.505916, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.21875}
+
+[INFO 2018-04-16 14:08:09,854 train.py:172] Pass 6, Batch 0, Cost 0.498655, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[INFO 2018-04-16 14:08:10,170 train.py:172] Pass 7, Batch 0, Cost 0.407002, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[INFO 2018-04-16 14:08:10,462 train.py:172] Pass 8, Batch 0, Cost 0.356202, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[INFO 2018-04-16 14:08:10,759 train.py:172] Pass 9, Batch 0, Cost 0.285109, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[INFO 2018-04-16 14:08:10,929 train.py:191] Training has finished.
+len line_splits:2, 70
+len line_splits:2, 3765
+len line_splits:2, 70
+len line_splits:2, 5395
+len line_splits:2, 2099
+len line_splits:2, 3682
+len line_splits:2, 3933
+len line_splits:2, 5198
+len line_splits:2, 3862
+len line_splits:2, 1941
+len line_splits:2, 1337
+len line_splits:2, 18986
+len line_splits:2, 113
+len line_splits:2, 63
+len line_splits:2, 8366
+len line_splits:2, 4236
+len line_splits:2, 5176
+len line_splits:2, 3266
+len line_splits:2, 6944
+len line_splits:2, 85
+len line_splits:2, 5945
+len line_splits:2, 15333
+len line_splits:2, 2334
+len line_splits:2, 3564
+len line_splits:2, 6030
+len line_splits:2, 5397
+len line_splits:2, 2825
+len line_splits:2, 4786
+len line_splits:2, 5294
+len line_splits:2, 3600
+len line_splits:2, 8247
+len line_splits:2, 80
+len line_splits:2, 4231
+len line_splits:2, 5852
+len line_splits:2, 3006
+len line_splits:2, 2731
+len line_splits:2, 5250
+len line_splits:2, 6291
+len line_splits:2, 6536
+len line_splits:2, 3240
+len line_splits:2, 3448
+len line_splits:2, 2235
+len line_splits:2, 2434
+len line_splits:2, 3709
+len line_splits:2, 3181
+len line_splits:2, 7688
+len line_splits:2, 6480
+len line_splits:2, 9724
+len line_splits:2, 2728
+len line_splits:2, 3711
+len line_splits:2, 2913
+len line_splits:2, 11548
+len line_splits:2, 4680
+len line_splits:2, 6864
+len line_splits:2, 10090
+len line_splits:2, 6334
+len line_splits:2, 15220
+len line_splits:2, 5359
+len line_splits:2, 1872
+len line_splits:2, 6611
+len line_splits:2, 8981
+len line_splits:2, 4104
+len line_splits:2, 9539
+len line_splits:2, 8010
+len line_splits:2, 3581
+len line_splits:2, 2756
+len line_splits:2, 8010
+len line_splits:2, 1303
+len line_splits:2, 8530
+len line_splits:2, 8182
+len line_splits:2, 12907
+len line_splits:2, 4975
+len line_splits:2, 8662
+len line_splits:2, 2290
+len line_splits:2, 11065
