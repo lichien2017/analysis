@@ -1,0 +1,4 @@
+[2018-06-08 14:22:15,586] - trainservice.py [Line:39] - [INFO]-[thread:140130251548416]-[process:14984] - get data; id is:4
+[2018-06-08 14:31:07,760] - trainservice.py [Line:39] - [INFO]-[thread:139730720646912]-[process:29565] - get data; id is:4
+[2018-06-08 14:31:09,065] - trainservice.py [Line:39] - [INFO]-[thread:139730720646912]-[process:29565] - get data; id is:4
+[2018-06-08 14:39:21,639] - trainservice.py [Line:39] - [INFO]-[thread:140676439725824]-[process:10561] - get data; id is:4

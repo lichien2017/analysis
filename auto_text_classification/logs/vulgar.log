@@ -1,0 +1,110 @@
+[2018-04-25 11:44:25,378] - traintext.py [Line:127] - [INFO]-[thread:140123764025088]-[process:14424] - Class number is : 2.
+[2018-04-25 11:44:25,379] - traintext.py [Line:148] - [INFO]-[thread:140123764025088]-[process:14424] - Length of word dictionary is : 22252.
+[2018-04-25 11:44:26,872] - traintext.py [Line:183] - [INFO]-[thread:140123764025088]-[process:14424] - Pass 0, Batch 0, Cost 0.745811, {'__auc_evaluator_0__': 0.4743589758872986, 'classification_error_evaluator': 0.8125}
+
+[2018-04-25 11:44:50,555] - traintext.py [Line:127] - [INFO]-[thread:140713439799040]-[process:14470] - Class number is : 2.
+[2018-04-25 11:44:50,555] - traintext.py [Line:148] - [INFO]-[thread:140713439799040]-[process:14470] - Length of word dictionary is : 22252.
+[2018-04-25 11:44:52,522] - traintext.py [Line:183] - [INFO]-[thread:140713439799040]-[process:14470] - Pass 0, Batch 0, Cost 0.765693, {'__auc_evaluator_0__': 0.6833333373069763, 'classification_error_evaluator': 0.9375}
+
+[2018-04-25 12:00:00,859] - traintext.py [Line:104] - [INFO]-[thread:140445006939904]-[process:14760] - Word dictionary is not given, the dictionary is automatically built from the training data.
+[2018-04-25 12:00:00,944] - traintext.py [Line:116] - [INFO]-[thread:140445006939904]-[process:14760] - Label dictionary is not given, the dictionary is automatically built from the training data.
+[2018-04-25 12:00:00,957] - traintext.py [Line:127] - [INFO]-[thread:140445006939904]-[process:14760] - Class number is : 2.
+[2018-04-25 12:00:00,957] - traintext.py [Line:148] - [INFO]-[thread:140445006939904]-[process:14760] - Length of word dictionary is : 22252.
+[2018-04-25 12:00:02,716] - traintext.py [Line:183] - [INFO]-[thread:140445006939904]-[process:14760] - Pass 0, Batch 0, Cost 0.756927, {'__auc_evaluator_0__': 0.2678571343421936, 'classification_error_evaluator': 0.875}
+
+[2018-04-25 12:18:24,141] - traintext.py [Line:127] - [INFO]-[thread:140619181647616]-[process:15095] - Class number is : 2.
+[2018-04-25 12:18:24,141] - traintext.py [Line:148] - [INFO]-[thread:140619181647616]-[process:15095] - Length of word dictionary is : 22252.
+[2018-04-25 12:18:26,036] - traintext.py [Line:183] - [INFO]-[thread:140619181647616]-[process:15095] - Pass 0, Batch 0, Cost 0.776940, {'__auc_evaluator_0__': 0.0, 'classification_error_evaluator': 1.0}
+
+[2018-04-25 14:28:17,432] - traintext.py [Line:127] - [INFO]-[thread:140309751494400]-[process:16081] - Class number is : 2.
+[2018-04-25 14:28:17,432] - traintext.py [Line:148] - [INFO]-[thread:140309751494400]-[process:16081] - Length of word dictionary is : 22252.
+[2018-04-25 14:28:18,838] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 0, Batch 0, Cost 0.766706, {'__auc_evaluator_0__': 0.4333333373069763, 'classification_error_evaluator': 0.9375}
+
+[2018-04-25 14:28:20,172] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 1, Batch 0, Cost 0.091345, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.03125}
+
+[2018-04-25 14:28:21,409] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 2, Batch 0, Cost 0.000092, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:22,635] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 3, Batch 0, Cost 0.000032, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:23,898] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 4, Batch 0, Cost 0.000008, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:25,128] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 5, Batch 0, Cost 0.000002, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:26,389] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 6, Batch 0, Cost 0.000003, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:27,627] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 7, Batch 0, Cost 0.000000, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:28,855] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 8, Batch 0, Cost 0.000000, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:30,076] - traintext.py [Line:183] - [INFO]-[thread:140309751494400]-[process:16081] - Pass 9, Batch 0, Cost 0.000001, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:28:31,178] - traintext.py [Line:202] - [INFO]-[thread:140309751494400]-[process:16081] - Training has finished.
+[2018-04-25 14:34:29,516] - traintext.py [Line:127] - [INFO]-[thread:140163989051136]-[process:16169] - Class number is : 2.
+[2018-04-25 14:34:29,516] - traintext.py [Line:148] - [INFO]-[thread:140163989051136]-[process:16169] - Length of word dictionary is : 22252.
+[2018-04-25 14:34:30,424] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 0, Batch 0, Cost 0.770383, {'__auc_evaluator_0__': 0.6774193644523621, 'classification_error_evaluator': 0.96875}
+
+[2018-04-25 14:34:31,693] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 1, Batch 0, Cost 0.036376, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.03125}
+
+[2018-04-25 14:34:32,958] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 2, Batch 0, Cost 0.000920, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:34,217] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 3, Batch 0, Cost 0.001200, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:35,453] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 4, Batch 0, Cost 0.000089, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:36,673] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 5, Batch 0, Cost 0.000018, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:37,929] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 6, Batch 0, Cost 0.000021, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:39,134] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 7, Batch 0, Cost 0.000003, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:40,392] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 8, Batch 0, Cost 0.000011, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:41,602] - traintext.py [Line:183] - [INFO]-[thread:140163989051136]-[process:16169] - Pass 9, Batch 0, Cost 0.000019, {'__auc_evaluator_0__': 0.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:34:42,664] - traintext.py [Line:202] - [INFO]-[thread:140163989051136]-[process:16169] - Training has finished.
+[2018-04-25 14:37:55,953] - traintext.py [Line:127] - [INFO]-[thread:140556771116800]-[process:16274] - Class number is : 3.
+[2018-04-25 14:37:55,953] - traintext.py [Line:148] - [INFO]-[thread:140556771116800]-[process:16274] - Length of word dictionary is : 22252.
+[2018-04-25 14:37:56,876] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 0, Batch 0, Cost 1.512784, {'__auc_evaluator_0__': 0.3461538553237915, 'classification_error_evaluator': 1.0}
+
+[2018-04-25 14:37:58,141] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 1, Batch 0, Cost 0.102475, {'__auc_evaluator_0__': 0.06451612710952759, 'classification_error_evaluator': 0.03125}
+
+[2018-04-25 14:37:59,380] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 2, Batch 0, Cost 0.055857, {'__auc_evaluator_0__': 0.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:00,625] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 3, Batch 0, Cost 0.000095, {'__auc_evaluator_0__': 0.25, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:01,864] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 4, Batch 0, Cost 0.000179, {'__auc_evaluator_0__': 0.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:03,102] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 5, Batch 0, Cost 0.000010, {'__auc_evaluator_0__': 0.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:04,329] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 6, Batch 0, Cost 0.000028, {'__auc_evaluator_0__': 0.1666666716337204, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:05,563] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 7, Batch 0, Cost 0.000023, {'__auc_evaluator_0__': 0.375, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:06,811] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 8, Batch 0, Cost 0.000010, {'__auc_evaluator_0__': 0.5, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:08,048] - traintext.py [Line:183] - [INFO]-[thread:140556771116800]-[process:16274] - Pass 9, Batch 0, Cost 0.000007, {'__auc_evaluator_0__': 0.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 14:38:09,125] - traintext.py [Line:202] - [INFO]-[thread:140556771116800]-[process:16274] - Training has finished.
+[2018-04-25 15:20:27,870] - traintext.py [Line:127] - [INFO]-[thread:140261522405120]-[process:16886] - Class number is : 2.
+[2018-04-25 15:20:27,870] - traintext.py [Line:148] - [INFO]-[thread:140261522405120]-[process:16886] - Length of word dictionary is : 7051.
+[2018-04-25 15:20:28,854] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 0, Batch 0, Cost 1.438320, {'__auc_evaluator_0__': 0.3214285671710968, 'classification_error_evaluator': 0.875}
+
+[2018-04-25 15:20:29,084] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 1, Batch 0, Cost 0.708627, {'__auc_evaluator_0__': 0.6962962746620178, 'classification_error_evaluator': 0.15625}
+
+[2018-04-25 15:20:29,302] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 2, Batch 0, Cost 0.734122, {'__auc_evaluator_0__': 0.9481481313705444, 'classification_error_evaluator': 0.15625}
+
+[2018-04-25 15:20:29,522] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 3, Batch 0, Cost 0.581027, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.15625}
+
+[2018-04-25 15:20:29,739] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 4, Batch 0, Cost 0.411941, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.1875}
+
+[2018-04-25 15:20:29,961] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 5, Batch 0, Cost 0.307976, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 15:20:30,171] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 6, Batch 0, Cost 0.116733, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 15:20:30,387] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 7, Batch 0, Cost 0.019481, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 15:20:30,600] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 8, Batch 0, Cost 0.006189, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 15:20:30,811] - traintext.py [Line:183] - [INFO]-[thread:140261522405120]-[process:16886] - Pass 9, Batch 0, Cost 0.001943, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-04-25 15:20:30,913] - traintext.py [Line:202] - [INFO]-[thread:140261522405120]-[process:16886] - Training has finished.

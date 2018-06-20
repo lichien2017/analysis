@@ -1,0 +1,7 @@
+[2018-06-14 17:25:47,361] - trainservice.py [Line:39] - [INFO]-[thread:140236810913536]-[process:3682] - get data; id is:8
+[2018-06-15 09:08:01,086] - trainservice.py [Line:39] - [INFO]-[thread:140223683614464]-[process:15296] - get data; id is:8
+[2018-06-15 09:13:15,345] - trainservice.py [Line:39] - [INFO]-[thread:140223683614464]-[process:15296] - get data; id is:8
+[2018-06-15 09:19:09,337] - trainservice.py [Line:39] - [INFO]-[thread:140223683614464]-[process:15296] - get data; id is:7
+[2018-06-15 09:59:14,600] - trainservice.py [Line:39] - [INFO]-[thread:140223683614464]-[process:15296] - get data; id is:6
+[2018-06-15 13:43:57,775] - trainservice.py [Line:39] - [INFO]-[thread:140223683614464]-[process:15296] - get data; id is:7
+[2018-06-15 13:50:32,783] - trainservice.py [Line:39] - [INFO]-[thread:140223683614464]-[process:15296] - get data; id is:7
