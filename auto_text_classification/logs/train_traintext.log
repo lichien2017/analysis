@@ -1,0 +1,214 @@
+[2018-06-20 10:18:53,897] - traintext.py [Line:137] - [INFO]-[thread:140105226446592]-[process:32] - Class number is : 2.
+[2018-06-20 10:18:53,898] - traintext.py [Line:158] - [INFO]-[thread:140105226446592]-[process:32] - Length of word dictionary is : 51285.
+[2018-06-20 10:18:55,421] - traintext.py [Line:162] - [INFO]-[thread:140105226446592]-[process:32] - paddle.init is over
+[2018-06-20 10:18:55,421] - traintext.py [Line:171] - [INFO]-[thread:140105226446592]-[process:32] - adam_optimizer is over
+[2018-06-20 10:18:55,425] - traintext.py [Line:175] - [INFO]-[thread:140105226446592]-[process:32] - nested_net is over
+[2018-06-20 10:18:55,426] - traintext.py [Line:180] - [INFO]-[thread:140105226446592]-[process:32] - paddle.parameters is over
+[2018-06-20 10:18:55,489] - traintext.py [Line:189] - [INFO]-[thread:140105226446592]-[process:32] - paddle.trainer.SG is over
+[2018-06-20 10:21:36,450] - traintext.py [Line:137] - [INFO]-[thread:140684997940992]-[process:154] - Class number is : 2.
+[2018-06-20 10:21:36,450] - traintext.py [Line:158] - [INFO]-[thread:140684997940992]-[process:154] - Length of word dictionary is : 51285.
+[2018-06-20 10:21:37,030] - traintext.py [Line:162] - [INFO]-[thread:140684997940992]-[process:154] - paddle.init is over
+[2018-06-20 10:21:37,031] - traintext.py [Line:171] - [INFO]-[thread:140684997940992]-[process:154] - adam_optimizer is over
+[2018-06-20 10:21:37,035] - traintext.py [Line:175] - [INFO]-[thread:140684997940992]-[process:154] - nested_net is over
+[2018-06-20 10:21:37,035] - traintext.py [Line:180] - [INFO]-[thread:140684997940992]-[process:154] - paddle.parameters is over
+[2018-06-20 10:21:37,098] - traintext.py [Line:189] - [INFO]-[thread:140684997940992]-[process:154] - paddle.trainer.SG is over
+[2018-06-20 10:21:43,217] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 0, Batch 0, Cost 1.201133, {'__auc_evaluator_0__': 0.5708501935005188, 'classification_error_evaluator': 0.40625}
+
+[2018-06-20 10:21:54,690] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 1, Batch 0, Cost 0.100719, {'__auc_evaluator_0__': 0.9958333373069763, 'classification_error_evaluator': 0.03125}
+
+[2018-06-20 10:22:05,548] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 2, Batch 0, Cost 0.007500, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:22:16,304] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 3, Batch 0, Cost 0.001222, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:22:26,993] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 4, Batch 0, Cost 0.000154, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:22:37,843] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 5, Batch 0, Cost 0.000092, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:22:48,580] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 6, Batch 0, Cost 0.000012, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:22:59,292] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 7, Batch 0, Cost 0.000015, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:23:09,909] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 8, Batch 0, Cost 0.000014, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:23:20,538] - traintext.py [Line:200] - [INFO]-[thread:140684997940992]-[process:154] - Pass 9, Batch 0, Cost 0.000012, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:23:25,412] - traintext.py [Line:219] - [INFO]-[thread:140684997940992]-[process:154] - Training has finished.
+[2018-06-20 10:31:58,605] - traintext.py [Line:137] - [INFO]-[thread:139668690695936]-[process:44] - Class number is : 2.
+[2018-06-20 10:31:58,606] - traintext.py [Line:158] - [INFO]-[thread:139668690695936]-[process:44] - Length of word dictionary is : 51285.
+[2018-06-20 10:32:00,087] - traintext.py [Line:162] - [INFO]-[thread:139668690695936]-[process:44] - paddle.init is over
+[2018-06-20 10:32:00,088] - traintext.py [Line:171] - [INFO]-[thread:139668690695936]-[process:44] - adam_optimizer is over
+[2018-06-20 10:32:00,092] - traintext.py [Line:175] - [INFO]-[thread:139668690695936]-[process:44] - nested_net is over
+[2018-06-20 10:32:00,093] - traintext.py [Line:180] - [INFO]-[thread:139668690695936]-[process:44] - paddle.parameters is over
+[2018-06-20 10:32:00,157] - traintext.py [Line:189] - [INFO]-[thread:139668690695936]-[process:44] - paddle.trainer.SG is over
+[2018-06-20 10:32:06,351] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 0, Batch 0, Cost 1.465604, {'__auc_evaluator_0__': 0.45703125, 'classification_error_evaluator': 0.5}
+
+[2018-06-20 10:32:17,305] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 1, Batch 0, Cost 0.286383, {'__auc_evaluator_0__': 0.9843137264251709, 'classification_error_evaluator': 0.0625}
+
+[2018-06-20 10:32:27,990] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 2, Batch 0, Cost 0.045780, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:32:38,872] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 3, Batch 0, Cost 0.000652, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:32:49,533] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 4, Batch 0, Cost 0.000301, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:33:00,417] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 5, Batch 0, Cost 0.000021, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:33:11,448] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 6, Batch 0, Cost 0.000005, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:33:22,142] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 7, Batch 0, Cost 0.000012, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:33:33,054] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 8, Batch 0, Cost 0.000017, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:33:43,771] - traintext.py [Line:200] - [INFO]-[thread:139668690695936]-[process:44] - Pass 9, Batch 0, Cost 0.000008, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:33:48,602] - traintext.py [Line:219] - [INFO]-[thread:139668690695936]-[process:44] - Training has finished.
+[2018-06-20 10:36:18,968] - traintext.py [Line:137] - [INFO]-[thread:139803502855936]-[process:240] - Class number is : 2.
+[2018-06-20 10:36:18,968] - traintext.py [Line:158] - [INFO]-[thread:139803502855936]-[process:240] - Length of word dictionary is : 51285.
+[2018-06-20 10:36:19,542] - traintext.py [Line:162] - [INFO]-[thread:139803502855936]-[process:240] - paddle.init is over
+[2018-06-20 10:36:19,543] - traintext.py [Line:171] - [INFO]-[thread:139803502855936]-[process:240] - adam_optimizer is over
+[2018-06-20 10:36:19,547] - traintext.py [Line:175] - [INFO]-[thread:139803502855936]-[process:240] - nested_net is over
+[2018-06-20 10:36:19,547] - traintext.py [Line:180] - [INFO]-[thread:139803502855936]-[process:240] - paddle.parameters is over
+[2018-06-20 10:36:19,611] - traintext.py [Line:189] - [INFO]-[thread:139803502855936]-[process:240] - paddle.trainer.SG is over
+[2018-06-20 10:36:25,699] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 0, Batch 0, Cost 1.553712, {'__auc_evaluator_0__': 0.501960813999176, 'classification_error_evaluator': 0.53125}
+
+[2018-06-20 10:36:36,481] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 1, Batch 0, Cost 0.219991, {'__auc_evaluator_0__': 0.9682539701461792, 'classification_error_evaluator': 0.0625}
+
+[2018-06-20 10:36:47,280] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 2, Batch 0, Cost 0.000466, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:36:58,070] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 3, Batch 0, Cost 0.000074, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:37:08,968] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 4, Batch 0, Cost 0.000044, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:37:19,564] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 5, Batch 0, Cost 0.000110, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:37:31,142] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 6, Batch 0, Cost 0.000023, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:37:41,776] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 7, Batch 0, Cost 0.000012, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:37:52,422] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 8, Batch 0, Cost 0.000007, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:38:03,128] - traintext.py [Line:200] - [INFO]-[thread:139803502855936]-[process:240] - Pass 9, Batch 0, Cost 0.000004, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:38:07,962] - traintext.py [Line:219] - [INFO]-[thread:139803502855936]-[process:240] - Training has finished.
+[2018-06-20 10:38:17,512] - traintext.py [Line:137] - [INFO]-[thread:140329028179712]-[process:904] - Class number is : 2.
+[2018-06-20 10:38:17,512] - traintext.py [Line:158] - [INFO]-[thread:140329028179712]-[process:904] - Length of word dictionary is : 51285.
+[2018-06-20 10:38:18,083] - traintext.py [Line:162] - [INFO]-[thread:140329028179712]-[process:904] - paddle.init is over
+[2018-06-20 10:38:18,083] - traintext.py [Line:171] - [INFO]-[thread:140329028179712]-[process:904] - adam_optimizer is over
+[2018-06-20 10:38:18,087] - traintext.py [Line:175] - [INFO]-[thread:140329028179712]-[process:904] - nested_net is over
+[2018-06-20 10:38:18,088] - traintext.py [Line:180] - [INFO]-[thread:140329028179712]-[process:904] - paddle.parameters is over
+[2018-06-20 10:38:18,149] - traintext.py [Line:189] - [INFO]-[thread:140329028179712]-[process:904] - paddle.trainer.SG is over
+[2018-06-20 10:38:24,482] - traintext.py [Line:200] - [INFO]-[thread:140329028179712]-[process:904] - Pass 0, Batch 0, Cost 1.729492, {'__auc_evaluator_0__': 0.5425100922584534, 'classification_error_evaluator': 0.59375}
+
+[2018-06-20 10:38:35,333] - traintext.py [Line:200] - [INFO]-[thread:140329028179712]-[process:904] - Pass 1, Batch 0, Cost 0.404456, {'__auc_evaluator_0__': 0.9246031641960144, 'classification_error_evaluator': 0.125}
+
+[2018-06-20 10:43:07,338] - traintext.py [Line:137] - [INFO]-[thread:139948940039936]-[process:47] - Class number is : 2.
+[2018-06-20 10:43:07,338] - traintext.py [Line:158] - [INFO]-[thread:139948940039936]-[process:47] - Length of word dictionary is : 51285.
+[2018-06-20 10:43:07,928] - traintext.py [Line:162] - [INFO]-[thread:139948940039936]-[process:47] - paddle.init is over
+[2018-06-20 10:43:07,929] - traintext.py [Line:171] - [INFO]-[thread:139948940039936]-[process:47] - adam_optimizer is over
+[2018-06-20 10:43:07,933] - traintext.py [Line:175] - [INFO]-[thread:139948940039936]-[process:47] - nested_net is over
+[2018-06-20 10:43:07,933] - traintext.py [Line:180] - [INFO]-[thread:139948940039936]-[process:47] - paddle.parameters is over
+[2018-06-20 10:43:07,996] - traintext.py [Line:189] - [INFO]-[thread:139948940039936]-[process:47] - paddle.trainer.SG is over
+[2018-06-20 10:43:14,091] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 0, Batch 0, Cost 1.377917, {'__auc_evaluator_0__': 0.43921568989753723, 'classification_error_evaluator': 0.46875}
+
+[2018-06-20 10:43:25,486] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 1, Batch 0, Cost 0.699406, {'__auc_evaluator_0__': 0.9855072498321533, 'classification_error_evaluator': 0.59375}
+
+[2018-06-20 10:43:36,315] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 2, Batch 0, Cost 0.130485, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.03125}
+
+[2018-06-20 10:43:47,020] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 3, Batch 0, Cost 0.003746, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:43:57,735] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 4, Batch 0, Cost 0.001322, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:44:08,453] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 5, Batch 0, Cost 0.000258, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:44:19,127] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 6, Batch 0, Cost 0.000256, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:44:29,904] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 7, Batch 0, Cost 0.000045, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:44:41,216] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 8, Batch 0, Cost 0.000039, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:44:52,034] - traintext.py [Line:200] - [INFO]-[thread:139948940039936]-[process:47] - Pass 9, Batch 0, Cost 0.000040, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:44:57,007] - traintext.py [Line:219] - [INFO]-[thread:139948940039936]-[process:47] - Training has finished.
+[2018-06-20 10:46:52,187] - traintext.py [Line:137] - [INFO]-[thread:139846619977472]-[process:1260] - Class number is : 2.
+[2018-06-20 10:46:52,187] - traintext.py [Line:158] - [INFO]-[thread:139846619977472]-[process:1260] - Length of word dictionary is : 51285.
+[2018-06-20 10:46:52,757] - traintext.py [Line:162] - [INFO]-[thread:139846619977472]-[process:1260] - paddle.init is over
+[2018-06-20 10:46:52,757] - traintext.py [Line:171] - [INFO]-[thread:139846619977472]-[process:1260] - adam_optimizer is over
+[2018-06-20 10:46:52,761] - traintext.py [Line:175] - [INFO]-[thread:139846619977472]-[process:1260] - nested_net is over
+[2018-06-20 10:46:52,762] - traintext.py [Line:180] - [INFO]-[thread:139846619977472]-[process:1260] - paddle.parameters is over
+[2018-06-20 10:46:52,824] - traintext.py [Line:189] - [INFO]-[thread:139846619977472]-[process:1260] - paddle.trainer.SG is over
+[2018-06-20 10:46:58,860] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 0, Batch 0, Cost 1.641601, {'__auc_evaluator_0__': 0.3492063581943512, 'classification_error_evaluator': 0.5625}
+
+[2018-06-20 10:47:09,869] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 1, Batch 0, Cost 0.328683, {'__auc_evaluator_0__': 0.9878542423248291, 'classification_error_evaluator': 0.125}
+
+[2018-06-20 10:47:20,929] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 2, Batch 0, Cost 0.019058, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:47:32,514] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 3, Batch 0, Cost 0.001110, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:47:43,945] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 4, Batch 0, Cost 0.000516, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:47:55,658] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 5, Batch 0, Cost 0.000106, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:48:07,987] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 6, Batch 0, Cost 0.000037, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:48:18,847] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 7, Batch 0, Cost 0.000020, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:48:29,474] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 8, Batch 0, Cost 0.000022, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:48:40,474] - traintext.py [Line:200] - [INFO]-[thread:139846619977472]-[process:1260] - Pass 9, Batch 0, Cost 0.000023, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:48:45,350] - traintext.py [Line:219] - [INFO]-[thread:139846619977472]-[process:1260] - Training has finished.
+[2018-06-20 10:51:20,726] - traintext.py [Line:137] - [INFO]-[thread:140492624910080]-[process:49] - Class number is : 2.
+[2018-06-20 10:51:20,726] - traintext.py [Line:158] - [INFO]-[thread:140492624910080]-[process:49] - Length of word dictionary is : 51285.
+[2018-06-20 10:51:21,290] - traintext.py [Line:162] - [INFO]-[thread:140492624910080]-[process:49] - paddle.init is over
+[2018-06-20 10:51:21,290] - traintext.py [Line:171] - [INFO]-[thread:140492624910080]-[process:49] - adam_optimizer is over
+[2018-06-20 10:51:21,294] - traintext.py [Line:175] - [INFO]-[thread:140492624910080]-[process:49] - nested_net is over
+[2018-06-20 10:51:21,295] - traintext.py [Line:180] - [INFO]-[thread:140492624910080]-[process:49] - paddle.parameters is over
+[2018-06-20 10:51:21,358] - traintext.py [Line:189] - [INFO]-[thread:140492624910080]-[process:49] - paddle.trainer.SG is over
+[2018-06-20 10:51:27,607] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 0, Batch 0, Cost 1.289334, {'__auc_evaluator_0__': 0.658730149269104, 'classification_error_evaluator': 0.4375}
+
+[2018-06-20 10:51:38,748] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 1, Batch 0, Cost 0.069768, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.03125}
+
+[2018-06-20 10:51:49,409] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 2, Batch 0, Cost 0.001527, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:52:00,243] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 3, Batch 0, Cost 0.000395, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:52:11,206] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 4, Batch 0, Cost 0.001087, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:52:22,131] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 5, Batch 0, Cost 0.000212, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:52:33,108] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 6, Batch 0, Cost 0.000045, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:52:43,686] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 7, Batch 0, Cost 0.000017, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:52:54,522] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 8, Batch 0, Cost 0.000015, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:53:05,210] - traintext.py [Line:200] - [INFO]-[thread:140492624910080]-[process:49] - Pass 9, Batch 0, Cost 0.000023, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 10:53:09,978] - traintext.py [Line:219] - [INFO]-[thread:140492624910080]-[process:49] - Training has finished.
+[2018-06-20 11:02:30,417] - traintext.py [Line:137] - [INFO]-[thread:140049229203200]-[process:117] - Class number is : 2.
+[2018-06-20 11:02:30,418] - traintext.py [Line:158] - [INFO]-[thread:140049229203200]-[process:117] - Length of word dictionary is : 51285.
+[2018-06-20 11:02:31,929] - traintext.py [Line:162] - [INFO]-[thread:140049229203200]-[process:117] - paddle.init is over
+[2018-06-20 11:02:31,929] - traintext.py [Line:171] - [INFO]-[thread:140049229203200]-[process:117] - adam_optimizer is over
+[2018-06-20 11:02:31,933] - traintext.py [Line:175] - [INFO]-[thread:140049229203200]-[process:117] - nested_net is over
+[2018-06-20 11:02:31,934] - traintext.py [Line:180] - [INFO]-[thread:140049229203200]-[process:117] - paddle.parameters is over
+[2018-06-20 11:02:31,997] - traintext.py [Line:189] - [INFO]-[thread:140049229203200]-[process:117] - paddle.trainer.SG is over
+[2018-06-20 11:02:38,252] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 0, Batch 0, Cost 1.288933, {'__auc_evaluator_0__': 0.7182539701461792, 'classification_error_evaluator': 0.4375}
+
+[2018-06-20 11:02:49,360] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 1, Batch 0, Cost 0.195236, {'__auc_evaluator_0__': 0.9750000238418579, 'classification_error_evaluator': 0.0625}
+
+[2018-06-20 11:03:00,437] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 2, Batch 0, Cost 0.002457, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:03:11,367] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 3, Batch 0, Cost 0.001729, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:03:22,470] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 4, Batch 0, Cost 0.000403, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:03:33,288] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 5, Batch 0, Cost 0.000095, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:03:44,313] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 6, Batch 0, Cost 0.000096, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:03:55,389] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 7, Batch 0, Cost 0.000054, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:04:06,196] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 8, Batch 0, Cost 0.000031, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:04:16,864] - traintext.py [Line:200] - [INFO]-[thread:140049229203200]-[process:117] - Pass 9, Batch 0, Cost 0.000027, {'__auc_evaluator_0__': 1.0, 'classification_error_evaluator': 0.0}
+
+[2018-06-20 11:04:21,770] - traintext.py [Line:219] - [INFO]-[thread:140049229203200]-[process:117] - Training has finished.
