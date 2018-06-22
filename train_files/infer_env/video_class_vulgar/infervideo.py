@@ -81,32 +81,32 @@ def infervideo(config):
             res_data = {"save_path": resppath, "images":[] }
             #res_data["save_path"] = resppath
             #res_data["images"] = []
+            if config['compute_flag'] == 1:
 
+                try:
+                    videodata = checkvideo_data(imgpath, resppath)
 
-            try:
-                videodata = checkvideo_data(imgpath, resppath)
+                    if videodata != None:
+                        logger.info("get a imgs path, ready to process: %s, %f, %s, %s"
+                                    %(videodata,data["threshold"], config["model_def"], config["pretrained_model"]))
 
-                if videodata != None:
-                    logger.info("get a imgs path, ready to process: %s, %f, %s, %s"
-                                %(videodata,data["threshold"], config["model_def"], config["pretrained_model"]))
+                        scores, senses = nsfw_batch.checkpath(imgspath=videodata, threshold=data["threshold"],
+                                                              nsfw_net=nsfw_net, caffe_transformer=caffe_transformer)
 
-                    scores, senses = nsfw_batch.checkpath(imgspath=videodata, threshold=data["threshold"],
-                                                          nsfw_net=nsfw_net, caffe_transformer=caffe_transformer)
+                        logger.info("scores is:%s;  senses is:%s" % (scores, senses))
+                        if(len(senses)>0):
+                            flag = 1
+                            res_data["images"] = senses
+                            res_senses = json.dumps(res_data)
+                            #data["resdata"] = "%s,%s" %(data["resdata"], res_senses)
+                            #logger.info("scores is:%s;  senses is:%s" %(scores, res_senses))
 
-                    logger.info("scores is:%s;  senses is:%s" % (scores, senses))
-                    if(len(senses)>0):
-                        flag = 1
-                        res_data["images"] = senses
-                        res_senses = json.dumps(res_data)
-                        #data["resdata"] = "%s,%s" %(data["resdata"], res_senses)
-                        #logger.info("scores is:%s;  senses is:%s" %(scores, res_senses))
-
-                else:
-                    logger.info("get None imgs")
-            except:
-                print('traceback.print_exc():%s' % traceback.print_exc())
-                sleep(1)
-                None
+                    else:
+                        logger.info("get None imgs")
+                except:
+                    print('traceback.print_exc():%s' % traceback.print_exc())
+                    sleep(1)
+                    None
 
             if(flag==0):
                 setvalue = queue.set(data["id"], data["seq"], flag)

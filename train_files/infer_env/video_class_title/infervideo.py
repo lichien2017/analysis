@@ -75,6 +75,7 @@ def infervideo(config):
 
             #无论结果,都需要返回
             flag = 0
+            if config['compute_flag'] == 1:
 
 
             if(flag==0):

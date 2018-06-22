@@ -87,28 +87,29 @@ def dosplit(config):
             resppath = data["data"][2]
 
             flag = 0
+            if config['compute_flag'] == 1:
 
-            #print("imgurl:%s, imgpath:%s" % (imgurl, imgpath))
+                #print("imgurl:%s, imgpath:%s" % (imgurl, imgpath))
 
-            try:
-                videodata = checkvideo_data(imgpath, resppath)
+                try:
+                    videodata = checkvideo_data(imgpath, resppath)
 
-                if videodata != None:
-                    logger.info("get a videoData, ready to send queue: %s" %videodata)
+                    if videodata != None:
+                        logger.info("get a videoData, ready to send queue: %s" %videodata)
 
-                    #print("value is %f" % (value))
-                    #logger.info("imgurl is %s; value is %f" % (imgurl, value))
-                    resdata = data["resdata"]
-                    ressplit = resdata.split(',')
-                    if( len(ressplit)>=3):
-                        flag = 1
-                        queue.push(ressplit[2], datastr)
+                        #print("value is %f" % (value))
+                        #logger.info("imgurl is %s; value is %f" % (imgurl, value))
+                        resdata = data["resdata"]
+                        ressplit = resdata.split(',')
+                        if( len(ressplit)>=3):
+                            flag = 1
+                            queue.push(ressplit[2], datastr)
 
-                else:
-                    logger.info("get None videodata")
-            except:
-                sleep(1)
-                None
+                    else:
+                        logger.info("get None videodata")
+                except:
+                    sleep(1)
+                    None
 
             if(flag==0):
                 setvalue = queue.set(data["id"], data["seq"], flag)

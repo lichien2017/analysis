@@ -167,34 +167,35 @@ def inferimg(config):
 
             flag = 0
 
-            #print("imgurl:%s, imgpath:%s" % (imgurl, imgpath))
+            if config['compute_flag'] == 1:
+                #print("imgurl:%s, imgpath:%s" % (imgurl, imgpath))
 
-            try:
-                imgdata = getimg_data(imgpath, imgurl)
+                try:
+                    imgdata = getimg_data(imgpath, imgurl)
 
-                if imgdata != None:
-                    logger.info("get a imgData, ready to compute")
-                    value = caffe_preprocess_and_compute(imgdata,
-                                                         caffe_transformer=caffe_transformer,
-                                                         caffe_net=nsfw_net,
-                                                         output_layers=['prob'])
+                    if imgdata != None:
+                        logger.info("get a imgData, ready to compute")
+                        value = caffe_preprocess_and_compute(imgdata,
+                                                             caffe_transformer=caffe_transformer,
+                                                             caffe_net=nsfw_net,
+                                                             output_layers=['prob'])
 
 
-                    #print("value is %f" % (value))
-                    logger.info("imgurl is %s; value is %f" % (imgurl, value))
-                    # update hashset
-                    if (data["threshold"] <= value):
-                        flag = 1
-                        saveimg(imgpath, resppath, imgdata)
+                        #print("value is %f" % (value))
+                        logger.info("imgurl is %s; value is %f" % (imgurl, value))
+                        # update hashset
+                        if (data["threshold"] <= value):
+                            flag = 1
+                            saveimg(imgpath, resppath, imgdata)
 
+                        else:
+                            flag = 0
                     else:
-                        flag = 0
-                else:
-                    logger.info("get None imgData")
-            except:
-                logger.info('traceback.print_exc():%s' % traceback.print_exc())
-                sleep(1)
-                None
+                        logger.info("get None imgData")
+                except:
+                    logger.info('traceback.print_exc():%s' % traceback.print_exc())
+                    sleep(1)
+                    None
 
 
             setvalue = queue.set(data["id"], data["seq"], flag)

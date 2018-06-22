@@ -147,46 +147,47 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
 
             flag = 0
-            if(len(data["data"][0])>0):
-                try:
-                    #print("data.data[0] is:", data["data"][0])
-                    datacontent = data["data"][0].encode("utf-8")
-                    datacontent = filterflag.filter_tags(datacontent)
+            if config['compute_flag'] == 1:
+                if(len(data["data"][0])>0):
+                    try:
+                        #print("data.data[0] is:", data["data"][0])
+                        datacontent = data["data"][0].encode("utf-8")
+                        datacontent = filterflag.filter_tags(datacontent)
 
-                    seq = data["seq"].encode("utf-8").lower()
+                        seq = data["seq"].encode("utf-8").lower()
 
-                    print("datacontent is:", datacontent)
-                    logger.info("datacontent:%s; seq is:%s" % (datacontent, seq))
-                    if(seq==checkseq and len(datacontent)>=6):
-                        #sleep(1)
-                        #continue
+                        print("datacontent is:", datacontent)
+                        logger.info("datacontent:%s; seq is:%s" % (datacontent, seq))
+                        if(seq==checkseq and len(datacontent)>=6):
+                            #sleep(1)
+                            #continue
 
-                        item,doc = redisRW.infer_reader_content(datacontent, word_dict)
-                        test_batch.append([item])
-                        # if len(test_batch) == batch_size:
-                        #     _infer_a_batch(inferer, test_batch, word_reverse_dict,
-                        #                    label_reverse_dict)
-                        #     test_batch = []
+                            item,doc = redisRW.infer_reader_content(datacontent, word_dict)
+                            test_batch.append([item])
+                            # if len(test_batch) == batch_size:
+                            #     _infer_a_batch(inferer, test_batch, word_reverse_dict,
+                            #                    label_reverse_dict)
+                            #     test_batch = []
 
-                        if len(test_batch):
-                            label, value = _infer_a_batch(inferer, test_batch, word_reverse_dict,
-                                           label_reverse_dict)
-                            #label = 'normal'
-                            #value = random.uniform(0.2,0.6)
+                            if len(test_batch):
+                                label, value = _infer_a_batch(inferer, test_batch, word_reverse_dict,
+                                               label_reverse_dict)
+                                #label = 'normal'
+                                #value = random.uniform(0.2,0.6)
 
-                            print("%s is %f" %(label, value))
-                            logger.info("%s is %f" %(label, value))
+                                print("%s is %f" %(label, value))
+                                logger.info("%s is %f" %(label, value))
 
-                            if (label == 'normal'):
-                                value = 1.0 - value
-                            #update hashset
-                            if(data["threshold"]<=value):
-                                flag = 1
-                            else:
-                                flag = 0
-                except:
-                    sleep(1)
-                    None
+                                if (label == 'normal'):
+                                    value = 1.0 - value
+                                #update hashset
+                                if(data["threshold"]<=value):
+                                    flag = 1
+                                else:
+                                    flag = 0
+                    except:
+                        sleep(1)
+                        None
 
             queue.set(data["id"], data["seq"], flag)
             #send a msg
