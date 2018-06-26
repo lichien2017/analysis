@@ -13,6 +13,8 @@ from PIL import ImageEnhance
 from PIL import ImageFilter
 #import ImageEnhance
 #import cv2
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def resize(w, h, w_box, h_box, pil_image):
     '''
@@ -88,10 +90,8 @@ if __name__ == "__main__":
 
         # img.close()
         code = code.replace(' ', '').replace('\n', '')
-        print code
+        print code.encode('utf-8')
 
-    reload(sys)
-    sys.setdefaultencoding('utf-8')
     ratio = (fuzz.partial_ratio(code, sys.argv[2]))
     print("ratio is:%f"%(ratio))
     if(ratio>=0.1):

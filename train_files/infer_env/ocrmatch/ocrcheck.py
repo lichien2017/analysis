@@ -43,7 +43,7 @@ def getocrcode(imgpath, config,queue, logger):
         img.close()
         #code = "1234556644324324324"
         code = code.replace(' ', '').replace('\n', '')
-        print("allpath is:%s; code is:%s"%(allpath,code))
+        print("allpath is:%s; code is:%s"%(allpath.encode('utf-8'),code.encode('utf-8')))
         logger.debug("allpath is:%s; code is:%s"%(allpath,code))
         queue.set(config["ocrcache"], imgpath,code)
         sleep(1)
@@ -65,7 +65,7 @@ def doocrcheck(config):
             # datastr = unicode(datastr).encode("utf-8")
 
             data = json.loads(datastr)
-            print("resid is:%s, title is:%s" %(data["resid"], data["title"]))
+            print("resid is:%s, title is:%s" %(data["resid"].encode('utf-8'), data["title"].encode('utf-8')))
             logger.info("resid is:%s"%(data["resid"]))
 
             flag = 0
@@ -76,6 +76,7 @@ def doocrcheck(config):
                 imgs = data["imgs"]
                 seqs = data["seqs"]
                 imgslen = len(imgs)
+                date = data['datetime']
                 if(imgslen<=0 and imgslen!=len(seqs)):
                     print("img lens error")
                     logger.warning("img lens error")
@@ -95,7 +96,7 @@ def doocrcheck(config):
 
                         #send a msg to queue
 
-                        respdata = {"resid":data["resid"],"img":imgs[i],"seq":seqs[i]}
+                        respdata = {"resid":data["resid"],"img":imgs[i],"seq":seqs[i],"datetime":date}
                         respjson = json.dumps(respdata)
                         print("respdata is:%s" %(respjson))
                         logger.debug("respdata is:%s" %(respjson))

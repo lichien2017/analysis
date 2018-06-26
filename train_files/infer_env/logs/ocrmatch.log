@@ -1,0 +1,252 @@
+[2018-06-25 16:30:42,860] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:128102
+[2018-06-25 16:30:42,860] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529860373949.png;
+[2018-06-25 16:30:43,000] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:44,002] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:20180624V0Z47L00
+[2018-06-25 16:30:44,003] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529860547679.png;
+[2018-06-25 16:30:44,204] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:45,207] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:DL3MT0MG0521B0AP
+[2018-06-25 16:30:45,208] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529859965487.png;
+[2018-06-25 16:30:45,324] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:46,326] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:DL28U4KI000598U2
+[2018-06-25 16:30:46,327] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529859965487.png;
+[2018-06-25 16:30:46,443] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:47,445] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:DL3N1JKE0511A502
+[2018-06-25 16:30:47,446] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529859965487.png;
+[2018-06-25 16:30:47,575] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:48,578] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:DKTPRNG100097U81
+[2018-06-25 16:30:48,579] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529859965487.png;
+[2018-06-25 16:30:48,695] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:49,698] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:VAK4DF0LN
+[2018-06-25 16:30:49,700] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529859965487.png;
+[2018-06-25 16:30:49,827] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:50,829] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:20180624A15W6000
+[2018-06-25 16:30:50,830] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529860547679.png;
+[2018-06-25 16:30:50,954] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:51,957] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:DL39NGM10512QSFU
+[2018-06-25 16:30:51,959] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529860578486.png;
+[2018-06-25 16:30:52,088] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:53,494] - ocrcheck.py [Line:121] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 110, in doocrcheck
+    sleep(1)
+KeyboardInterrupt
+
+[2018-06-25 16:30:53,495] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:DL3JBGJN0001875P
+[2018-06-25 16:30:53,496] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529860578486.png;
+[2018-06-25 16:30:53,608] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:30:54,610] - ocrcheck.py [Line:69] - [INFO]-[thread:140584973133568]-[process:32607] - resid is:20170525A05OQK00
+[2018-06-25 16:30:54,610] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140584973133568]-[process:32607] - allpath is:/mnt/upload_files/20180624/1529860869785.png;
+[2018-06-25 16:30:54,731] - ocrcheck.py [Line:109] - [ERROR]-[thread:140584973133568]-[process:32607] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:31:59,077] - ocrcheck.py [Line:69] - [INFO]-[thread:140076042331904]-[process:4234] - resid is:20180520V040GT00
+[2018-06-25 16:31:59,078] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140076042331904]-[process:4234] - allpath is:/mnt/upload_files/20180624/1529861390590.png;
+[2018-06-25 16:31:59,194] - ocrcheck.py [Line:109] - [ERROR]-[thread:140076042331904]-[process:4234] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
+[2018-06-25 16:32:00,197] - ocrcheck.py [Line:69] - [INFO]-[thread:140076042331904]-[process:4234] - resid is:20170930V03VUA00
+[2018-06-25 16:32:00,198] - ocrcheck.py [Line:29] - [DEBUG]-[thread:140076042331904]-[process:4234] - allpath is:/mnt/upload_files/20180624/1529861390590.png;
+[2018-06-25 16:32:00,346] - ocrcheck.py [Line:109] - [ERROR]-[thread:140076042331904]-[process:4234] - Exception is:Traceback (most recent call last):
+  File "ocrmatch/ocrcheck.py", line 87, in doocrcheck
+    ocrcode = getocrcode(imgs[i],config,queue, logger)
+  File "ocrmatch/ocrcheck.py", line 42, in getocrcode
+    code = pytesseract.image_to_string(img, lang='chi_sim')
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 193, in image_to_string
+    return run_and_get_output(image, 'txt', lang, config, nice)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 140, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/pytesseract/pytesseract.py", line 111, in run_tesseract
+    proc = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+
