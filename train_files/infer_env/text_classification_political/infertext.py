@@ -136,6 +136,7 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
             if(datastr == None):
                 sleep(10)
+                logger.info("continue:data is null")
                 continue
 
             #datastr = unicode(datastr).encode("utf-8")
@@ -147,13 +148,14 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
             if(len(data["data"])==0):
                 sleep(1)
+                logger.info("continue:data is null2")
                 continue
 
             #print("Enter step 1")
 
 
             flag = 0
-            if config['compute_flag'] == 1:
+            if args['compute_flag'] == 1:
                 if(len(data["data"][0])>0):
                     try:
                         #print("data.data[0] is:", data["data"][0])
@@ -205,9 +207,10 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
             test_batch = []
             #sleep(10)
-        except:
+        except Exception as ex:
             sleep(1)
             test_batch = []
+            logger.info('1traceback.print_exc():%s' % ex)
             continue
 
 

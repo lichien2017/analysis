@@ -147,7 +147,7 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
 
             flag = 0
-            if config['compute_flag'] == 1:
+            if args['compute_flag'] == 1:
                 if(len(data["data"][0])>0):
                     try:
                         #print("data.data[0] is:", data["data"][0])
