@@ -285,13 +285,17 @@ def test(database, config, taskdata):
 
         label, value = _infer_a_batch(inferer, test_batch, word_reverse_dict,
                        label_reverse_dict)
+        print("labe is:%s; value is:%s"%(label, value))
         if (label == 'normal'):
             value = 1.0 - value
-
-        if(value>=taskdata["limit_ratio"]):
-            result = 1
-        else:
             result = 0
+        else:
+            result = int(label)
+
+        # if(value>=taskdata["limit_ratio"]):
+        #     result = 1
+        # else:
+        #     result = 0
 
         matchcount = matchcount+(1 if (result==standard) else 0)
 

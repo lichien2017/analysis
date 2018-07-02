@@ -100,6 +100,12 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
     test_batch = []
 
+    filterlables = []
+    try:
+        filterlables = args["filterlables"]
+    except:
+        None
+
     #print("args is:", args)
     #read infered data
 
@@ -180,11 +186,15 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
                                 if (label == 'normal'):
                                     value = 1.0 - value
-                                #update hashset
-                                if(data["threshold"]<=value):
-                                    flag = 1
-                                else:
                                     flag = 0
+                                    data["resdata"] = "%s,%d"%(data["resdata"], 0)
+                                #update hashset
+                                else:
+                                    data["resdata"] = "%s,%s" % (data["resdata"], label)
+                                    if(label not in filterlables and data["threshold"]<=value):
+                                        flag = 1
+                                    else:
+                                        flag = 0
                     except:
                         sleep(1)
                         None
