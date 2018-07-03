@@ -100,6 +100,12 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
     test_batch = []
 
+    filterlables = []
+    try:
+        filterlables = args["filterlables"]
+    except:
+        None
+
     #print("args is:", args)
     #read infered data
 
@@ -130,6 +136,7 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
             if(datastr == None):
                 sleep(10)
+                logger.info("continue:data is null")
                 continue
 
             #datastr = unicode(datastr).encode("utf-8")
@@ -141,12 +148,14 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
             if(len(data["data"])==0):
                 sleep(1)
+                logger.info("continue:data is null2")
                 continue
 
             #print("Enter step 1")
 
 
             flag = 0
+            patch_resdata = "0"
             if args['compute_flag'] == 1:
                 if(len(data["data"][0])>0):
                     try:
@@ -180,24 +189,31 @@ def infer( data_path, model_path, word_dict_path, batch_size, label_dict_path,ar
 
                                 if (label == 'normal'):
                                     value = 1.0 - value
-                                #update hashset
-                                if(data["threshold"]<=value):
-                                    flag = 1
-                                else:
                                     flag = 0
+                                    #data["resdata"] = "%s,%d"%(data["resdata"], 0)
+                                #update hashset
+                                else:
+                                    #data["resdata"] = "%s,%s" % (data["resdata"], label)
+                                    patch_resdata = label
+                                    if(label not in filterlables and data["threshold"]<=value):
+                                        flag = 1
+                                    else:
+                                        flag = 0
                     except:
                         sleep(1)
                         None
-
+            data["resdata"]  = "%s,%s"%(data["resdata"],patch_resdata)
+            logger.info("resp is %s, resdata is %s" %(data["resp"], data["resdata"]))
             queue.set(data["id"], data["seq"], flag)
             #send a msg
             queue.push(data["resp"], data["resdata"])
 
             test_batch = []
             #sleep(10)
-        except:
+        except Exception as ex:
             sleep(1)
             test_batch = []
+            logger.info('1traceback.print_exc():%s' % ex)
             continue
 
 
